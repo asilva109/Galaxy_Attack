@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Black+Ops+One&family=Rubik+Wet+Paint&display=swap');
+@font-face {
+    font-family: "kenvector_future_thin";
+    src: url("../assets/Bonus/kenvector_future_thin.ttf");
+}
+
+body {
+    background-color: #050017;
+}
+
+#wrapper {
+    width: 600px;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border: 10px ridge #b6bdc1;
+}
+
+#menu-page{
+    position: absolute;
+    background: url("../assets/Backgrounds/main2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    width: 600px;
+    height: 700px;
+    text-align: center;
+    font-family:'Black Ops One';
+}
+#about-page, #canvas{
+    position: absolute;
+    background: url("../assets/Backgrounds/blueBig.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #76d4d0;
+    width: 600px;
+    height: 700px;
+    text-align: center;
+
+}
+#about-page H1,H2{
+    font-family:'Black Ops One';
+    font-weight: lighter;
+}
+
+#about-page p{
+    font-family: 'Alice';
+    font-size: 19px;
+}
+
+h1 {
+    font-size: 3.8em;
+    font-weight: lighter;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    font-size: 2em;
+}
+
+#about-page li, #about-page p {
+    margin: 5px;
+}
+
+#about-page ul {
+    margin: 0;
+}
+
+#credits-h2 {
+    margin-bottom: 17px;
+}
+
+.about-li {
+    padding-top: 2px;
+    font-size: 0.5em;
+}
+#about-button, #start-game-button{
+    text-decoration: none;
+    color: #7ac1f8;
+}
+#about-button:hover ,#start-game-button:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+a {
+    text-decoration: none;
+    color: #7ac1f8;
+}
+
+a:visited {
+    color: #00f2e5;
+}
+
+a:hover {
+    color: #f2f2f2;
+}
+
+.light-grey {
+    color: #f2f2f2;
+}
+
+.about-li a {
+    color: #f2f2f2;
+}
+
+.back-button {
+    font-size: 1.7em;
+    font-family:'Black Ops One';
+    color: #7ac1f8;
+}
+
+#exit-button {
+    background-color: #ffb300;
+    color: #000000;
+    border: none;
+    padding: 12px 22px;
+    font-size: 1.3em;
+    cursor: pointer;
+    font-family:'Black Ops One';
+}
+
+#game-over-box {
+    position: absolute;
+    background: url("../assets/Backgrounds/main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #76d4d0;
+    width: 600px;
+    height: 700px;
+    text-align: center;
+    font-family: "kenvector_future_thin", serif;
+    
+}
+#game-over-box h1{
+color:#feb200;
+font-weight: lighter;
+font-family:'Black Ops One';
+}
+#game-over-p {
+    font-size: 1.3em;
+    color:orange;
+    font-family:'Black Ops One';
+}
